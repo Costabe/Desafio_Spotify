@@ -1,6 +1,6 @@
 # Desafio_Spotify
 
-# MATERIAL DE APOIO... 
+# REFERENCIAS... 
 
 
 # Para entender o que eh json: https://www.w3schools.com/whatis/whatis_json.asp
