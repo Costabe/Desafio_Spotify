@@ -26,6 +26,7 @@ output_list_cleaned = clean_output_list(output_list) # CLEAN USA PARA DEIXAR OS 
 #  "MEM_usage": %MEM,
 #  "command": COMMAND,
 #  "timestamp": date}"
+
 list_dictionaries = output_list_cleaned_2_list_dictionaries(output_list_cleaned)
 list_dictionaries_timesstamp = add_timesstramp(list_dictionaries) 
 
