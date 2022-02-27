@@ -29,7 +29,7 @@ def clean_output_list (output_list):
         cleaned_row = clean_row(row_splitted)
         if cleaned_row != ['']:
              output_list_cleaned.append(cleaned_row)
-    output_list_cleaned = output_list_cleaned[1:]
+    output_list_cleaned = output_list_cleaned[0:]
     return output_list_cleaned
 
 
