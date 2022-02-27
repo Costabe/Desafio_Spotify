@@ -33,8 +33,6 @@ list_dictionaries_timesstamp = add_timesstramp(list_dictionaries)
 #list_dictionaries - OU SEJA O FORMATO QUE O DJSON IRA INTERPRETAR.
 # ADD_TIMESTAMP - O FORMATO QUE O DJSON ADICIONAR/RECONHER A HORA 
 
-
-
 # 3 - enviar esses dados ao banco de dados MongoDB Atlas;
 
 # client = pymongo - ONDE SE CONECTAR AO BANCO DE DADOS DO MONGO ATLAS
@@ -44,7 +42,6 @@ for element in list_dictionaries_timesstamp:
     db["perfomaces_test"].insert_one(element)
     # CADA ELEMENT SERA INTREPRETADO POR LSITA DE DICIONARIO E ENCAMINHADO AO BANCO DE DADOS SENDO ASSIM INTERPRETANDO OS CODIGOS. 
 
-db["perfomances_test"].insert_one(list_dictionaries_timesstamp[0])
 
 #import pdb; pdb.set_trace()
 
