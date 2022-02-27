@@ -36,10 +36,10 @@ def clean_output_list (output_list):
      # Transform row in dictionary 
 def row_2_dic(row):
     HOSTNAME_slot = 0
-    USER_slot = 1
-    PID_slot = 2
-    CPU_slot = 3
-    MEM_slot = 4
+    USER_slot = 0
+    PID_slot = 1
+    CPU_slot = 2
+    MEM_slot = 3
     COMMAND_slot = 10
     dict_row = {}
     for iterator in range( len(row) ):
