@@ -46,6 +46,6 @@ for element in list_dictionaries_timesstamp:
 
 db["perfomances_test"].insert_one(list_dictionaries_timesstamp[0])
 
-import pdb; pdb.set_trace()
+#import pdb; pdb.set_trace()
 
 # */5 * * * *  python3 /$home/python_tutorial/monitoration.py 
